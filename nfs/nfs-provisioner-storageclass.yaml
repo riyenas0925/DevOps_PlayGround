@@ -3,5 +3,6 @@ kind: StorageClass
 metadata:
   name: nfs-storageclass
 provisioner: nfs-storage
+reclaimPolicy: Retain
 parameters:
   archiveOnDelete: "false"
