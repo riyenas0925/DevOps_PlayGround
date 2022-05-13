@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: nfs-provisioner-deployment
+  name: nfs-pod-provisioner
   namespace: nfs-provisioner
 spec:
   selector:
